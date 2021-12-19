@@ -85,6 +85,10 @@ h1.temp {
   position: relative;
 }
 
+.weather li {
+  list-style: none;
+}
+
 .weather.loading:after {
   visibility: visible;
   content: "Loading...";
